@@ -3,9 +3,9 @@ layout: page
 permalink: /teaching/
 title: teaching
 description: Publicly available course resources.
-nav: true
-nav_order: 6
-calendar: true
+nav: false
+# nav_order: 6
+# calendar: true
 ---
 
 The existence of this page is aspirational. Stay tuned for future use.
