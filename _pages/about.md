@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>AEC 522</p>
+    <p>Office location: AEC 522</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -25,7 +25,7 @@ social: true # includes social icons at the bottom of the page
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello, and welcome to my website! This page is infrequently updated to display my professional portfolio. Outside my role as an educator and researcher, I try to spend most of my time with my family and friends, tinkering with inexpensive electronics, and continuing my pursuit of lifelong learning.
+Hello, and welcome to my website! This page is infrequently updated to display my professional portfolio. Outside of my role as an educator and researcher, I try to spend most of my time with my family and friends, tinkering with inexpensive electronics, and continuing my pursuit of lifelong learning.
 
 I will be starting as an Assistant Professor of Mechanical Engineering in the Physics and Engineering department at the University of Scranton in Fall 2026. My research focuses on soft robotics, specifically actuator design for physical human-robot interaction and machine-learning enabled system identification and design optimization. I am consistently interested in collaborating with student researchers - please reach out if this research area excites you.
 
