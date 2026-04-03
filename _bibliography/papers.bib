@@ -1,5 +1,23 @@
 ---
 ---
+@article{campbell2025active,
+  title={Active Learning Design: Modeling Force Output for Axisymmetric Soft Pneumatic Actuators},
+  author={Campbell, Gregory M and Muhaxheri, Gentian and Guilhoto, Leonardo Ferreira and Santangelo, Christian D and Perdikaris, Paris and Pikul, James and Yim, Mark},
+  journal={IEEE Robotics and Automation Letters},
+  volume={10},
+  number={10},
+  pages={10838--10845},
+  year={2025},
+  selected={true},
+  url = {https://ieeexplore.ieee.org/abstract/document/11146590},
+  doi = {10.1109/LRA.2025.3605089},
+  archivePrefix={arXiv},
+  primaryClass={cs.RO},
+  arxiv = {2504.01156},
+  abstract = {Soft pneumatic actuators (SPA) made from elastomeric materials can provide large strain and large force. The behavior of locally strain-restricted hyperelastic materials under inflation has been investigated thoroughly for shape reconfiguration, but requires further investigation for trajectories involving external force. In this work we model force-pressure-height relationships for a concentrically strain-limited class of soft pneumatic actuators and demonstrate the use of this model to design SPA response for object lifting. We predict relationships under different loadings by solving energy minimization equations and verify this theory by using an automated test rig to collect rich data for n = 22 Ecoflex 00-30 membranes. We collect data using an active learning pipeline to efficiently model the design space. We show that this learned model outperforms the theory-based model and a naive regression. We use our model to optimize membrane design for different lift tasks and compare this performance to other designs. These contributions represent a step towards understanding the natural response for this class of actuator and embodying intelligent lifts in a single-pressure input actuator system.}
+
+}
+
 @inproceedings{kim2022contact,
   title={Contact force estimation from deformation of surface},
   author={Kim, Kyung Eun and Yin, Jessica and Campbell, Gregory and Pikul, James and Santangelo, Christian},
@@ -15,7 +33,12 @@
   booktitle={2022 IEEE 5th International Conference on Soft Robotics (RoboSoft)},
   pages={802--808},
   year={2022},
-  organization={IEEE}
+  archivePrefix={arXiv},
+  primaryClass={cs.RO},
+  arxiv = {2204.08586},
+  organization={IEEE},
+  doi = {10.1109/RoboSoft54090.2022.9762091},
+  abstract = {The most common sensing modalities found in a robot perception system are vision and touch, which together can provide global and highly localized data for manipulation. However, these sensing modalities often fail to adequately capture the behavior of target objects during the critical moments as they transition out of static, controlled contact with an end-effector to dynamic and uncontrolled motion. In this work, we present a novel multimodal visuotactile sensor that provides simultaneous visuotactile and proximity depth data. The sensor integrates an RGB camera and air pressure sensor to sense touch with an infrared time-of-flight (ToF) camera to sense proximity by leveraging a selectively transmissive soft membrane to enable the dual sensing modalities. We present the mechanical design, fabrication techniques, algorithm implementations, and evaluation of the sensor's tactile and proximity modalities. The sensor is demonstrated in three open-loop robotic tasks: approaching and contacting an object, catching, and throwing. The fusion of tactile and proximity data could be used to capture key information about a target object's transition behavior for sensor-based control in dynamic manipulation.}
 }
 
 @article{brugarolas2014tailoring,
@@ -28,6 +51,7 @@
   year={2014},
   publisher={ACS Publications},
   url={https://pubs.acs.org/doi/pdf/10.1021/am502290h},
+  doi={10.1021/am502290h},
   abstract={One common approach to generate lightweight materials with high specific strength and stiffness is the incorporation of stiff hollow microparticles (also known as bubbles or microballoons) into a polymeric matrix. The mechanical properties of these composites, also known as syntactic foams, greatly depend on those of the hollow microparticles. It is critical to precisely control the properties of these bubbles to fabricate lightweight materials that are suitable for specific applications. In this paper, we present a method to tailor the mechanical properties and response of highly monodisperse nanoparticle-shelled bubbles using thermal treatment. We characterize the mechanical properties of individual as-assembled bubbles as well as those of thermally treated ones using nanoindentation and quantitative in situ compression tests. As-assembled bubbles display inelastic response, whereas thermally treated bubbles behave elastically. We also show that the stiffness and strength of bubbles are enhanced significantly, as much as 12 and 14 times that of the as-assembled bubbles, respectively, via thermal treatment. We complement the experimental results with finite element analysis (FEA) to understand the effect of shell thickness nonuniformity as well as the inelasticity on the mechanical response and fracture behavior of these bubbles. We demonstrate that the failure mechanism of bubbles incorporated into a polymer composite depends on the structure of the bubbles.}
 
 }
@@ -38,8 +62,13 @@
   booktitle={2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
   pages={11594--11599},
   year={2022},
+  archivePrefix={arXiv},
+  primaryClass={cs.RO},
+  arxiv = {2211.07480},
   organization={IEEE},
-  selected={true}
+  selected={true},
+  abstract={Soft robotic actuators are safe and adaptable devices with inherent compliance, which makes them attractive for manipulating delicate and complex objects. Researchers have integrated stiff materials into soft actuators to increase their force capacity and direct their deformation. However, these embedded materials have largely been pre-prescribed and static, which constrains the actuators to a predetermined range of motion. In this work, electroadhesive (EA) clutches integrated on a single-chamber soft pneumatic actuator (SPA) provide local programmable stiffness modulation to control the actuator deformation. We show that activating different clutch patterns inflates a silicone membrane into pyramidal, round, and plateau shapes. Curvatures from these shapes are combined during actuation to apply forces on both a 3.7 g and 820 g object along five different degrees of freedom (DoF). The actuator workspace is up to 12 mm for light objects. Clutch deactivation, which results in local elastomeric expansion, rapidly applies forces up to 3.2 N to an object resting on the surface and launches a 3.7 g object in controlled directions. The actuator also rotates a heavier, 820 g, object by 5 degrees and rapidly restores it to horizontal alignment after clutch deactivation. This actuator is fully powered by a 5 V battery, AA battery, DC-DC transformer, and 4.5 V (63 g) DC air pump. These results demonstrate a first step towards realizing a soft actuator with high DoF shape change that preserves the inherent benefits of pneumatic actuation while gaining the electrical controllability and strength of EA clutches. We envision such a system supplying human contact forces in the form of a low-profile sit-to-stand assistance device, bed-ridden patient manipulator, or other ergonomic mechanism.},
+  DOI = {10.1109/IROS47612.2022.9982131}
 }
 
 @article{levine2023low,
@@ -49,15 +78,9 @@
   volume={35},
   number={46},
   pages={2304455},
-  year={2023}
-}
-
-@misc{pikul2023programmable,
-  title={Programmable Soft Actuators},
-  author={Pikul, James Henry and Campbell, Gregory},
   year={2023},
-  month=nov # "~23",
-  note={US Patent App. 18/320,327}
+  doi={10.1002/adma.202304455},
+  abstract={Electroadhesive devices with dielectric films can electrically program changes in stiffness and adhesion, but require hundreds of volts and are subject to failure by dielectric breakdown. Recent work on ionoelastomer heterojunctions has enabled reversible electroadhesion with low voltages, but these materials exhibit limited force capacities and high detachment forces. It is a grand challenge to engineer electroadhesives with large force capacities and programmable detachment at low voltages (<10 V). In this work, tough ionoelastomer/metal mesh composites with low surface energies are synthesized and surface roughness is controlled to realize sub-ten-volt clutches that are small, strong, and easily detachable. Models based on fracture and contact mechanics explain how clutch compliance and surface texture affect force capacity and contact area, which is validated over different geometries and voltages. These ionoelastomer clutches outperform the best existing electroadhesive clutches by fivefold in force capacity per unit area (102 N cm−2), with a 40-fold reduction in operating voltage (± 7.5 V). Finally, the ability of the ionoelastomer clutches to resist bending moments in a finger wearable and as a reversible adhesive in an adjustable phone mount is demonstrated.}
 }
 
 @inproceedings{campbell2024control,
@@ -66,7 +89,10 @@
   booktitle={2024 IEEE 7th International Conference on Soft Robotics (RoboSoft)},
   pages={299--304},
   year={2024},
-  organization={IEEE}
+  organization={IEEE},
+  doi={10.1109/RoboSoft60065.2024.10521993},
+  abstract={A minimal number of rigid constraints makes soft robots versatile, but many of these robots use soft pneumatic actuators (SPAs) designed to inflate through a single trajectory. In an unloaded actuator, this trajectory is dictated by the arrangement of in-extensible and elastic materials. External strain limiters can be added post-fabrication to SPAs, but these are passive devices. In this paper, we offer design and control techniques for an electrically active strain limiter that is easily adhered to existing SPAs to provide signal-controlled force output. These sheathed electroadhesive (EA) clutches apply antagonistic forces through the constitutive properties of their silicone sheathing and through the variable friction of the clutch itself. We are able to design the sheathing to passively support loads or minimize passive stiffness. We control clutch forces via an augmented pulse-width-modulation (PWM) of the high voltage square-wave input. We perform an initial, empirical characterization on the system with tensile material testing. The clutch system resists motion with sustained forces ranging from 0.5N to 22N. We then demonstrate its ability to apply predictable nonconservative work in a dynamic catching task, where it can limit catching height from 15cm to 1cm. Finally, we attach it to an inverse pneumatic artificial muscle (IPAM) to show that variable strain limitation can control position of the SPA endpoint.}
+
 }
 
 @article{skiera2019passenger,
@@ -76,22 +102,8 @@
   volume={1},
   number={2019-01-0420},
   pages={918--950},
-  year={2019}
-}
-
-@article{campbell2025active,
-  title={Active Learning Design: Modeling Force Output for Axisymmetric Soft Pneumatic Actuators},
-  author={Campbell, Gregory M and Muhaxheri, Gentian and Guilhoto, Leonardo Ferreira and Santangelo, Christian D and Perdikaris, Paris and Pikul, James and Yim, Mark},
-  journal={IEEE Robotics and Automation Letters},
-  volume={10},
-  number={10},
-  pages={10838--10845},
-  year={2025},
-  selected={true},
-  url = {https://ieeexplore.ieee.org/abstract/document/11146590},
-  doi = {10.1109/LRA.2025.3605089},
-  abstract = {Soft pneumatic actuators (SPA) made from elastomeric materials can provide large strain and large force. The behavior of locally strain-restricted hyperelastic materials under inflation has been investigated thoroughly for shape reconfiguration, but requires further investigation for trajectories involving external force. In this work we model force-pressure-height relationships for a concentrically strain-limited class of soft pneumatic actuators and demonstrate the use of this model to design SPA response for object lifting. We predict relationships under different loadings by solving energy minimization equations and verify this theory by using an automated test rig to collect rich data for n = 22 Ecoflex 00-30 membranes. We collect data using an active learning pipeline to efficiently model the design space. We show that this learned model outperforms the theory-based model and a naive regression. We use our model to optimize membrane design for different lift tasks and compare this performance to other designs. These contributions represent a step towards understanding the natural response for this class of actuator and embodying intelligent lifts in a single-pressure input actuator system.}
-
+  year={2019},
+  abstract={A significant portion of real-world passenger vehicle side impacts occur at lower speeds than testing conducted by the National Highway Traffic Safety Administration (NHTSA) or the Insurance Institute for Highway Safety (IIHS). Test data from low- to moderate-speed side impacts involving late-model passenger vehicles is limited, making the evaluation of vehicle impact response, occupant loading, and injury potential challenging. This study provides the results of low- to moderate-speed impact testing involving a late-model mid-size sedan. Two full-scale Non-Deformable Moving Barrier (NDMB) side impact crash tests were conducted at speeds of 6.2 mph (10.0 kph) and 13.4 mph (21.6 kph). Instrumentation on the late-model sedan used for the test series included tri-axis accelerometers and seat belt load cells. In both tests, instrumented Hybrid III 50th percentile-male Anthropomorphic Test Devices (ATDs) were restrained in the driver and passenger seats using the standard three-point seat belts. Response data for the vehicle, barrier, and ATDs was recorded using onboard data acquisition, and on- and off-board real-time and high-speed video cameras. In addition, the deformation to the side of the sedan was quantified from pre- and post-test laser scan data. Results from the test series provided data regarding accelerations, velocity change, and restitution. The damage to the side structure of the vehicle was assessed and conclusions regarding damage initiation and damage progression are discussed. Conservation of Momentum and Conservation of Energy analyses are presented and force-displacement characteristics and energy dissipation were evaluated and compared. Utilizing the data that was developed from the test series, vehicle side stiffness modeling was also conducted.},
 }
 
 @phdthesis{campbell2025elastomeric,
@@ -107,5 +119,7 @@
   booktitle={2026 IEEE/SICE International Symposium on System Integration (SII)},
   number={10.1109/SII64115.2026.11404555},
   pages={982--989},
-  year={2026}
+  year={2026},
+  doi={10.1109/SII64115.2026.11404555},
+  abstract={Additive and low-cost manufacturing techniques promise increased access to robotic actuation at the cost of mechanical precision. In this work, we employ principled Design of Experiments (DoE), including Taguchi orthogonal arrays, in parallel to sequential experimentation enabled by Bayesian Optimization (BO) for co-optimization of design and manufacturing parameters across two design case studies. We optimize for a combination of gear ratio and backdrivability in a 3D-printed compound Wolfrom bilateral gearbox. We also optimize for crack pressure and steady-state pressure differential of an injection-molded silicone check valve. Using BO, we find a 3D-printing compatible gear design with a gear ratio of 63.6 that backdrives without ever needing more than 0.35 Nm of input torque. This represents a 49% increase in ‘score’ over the Taguchi method. Similarly, we find a BO valve with lower combined crack and steady-state pressure errors than the Taguchi trials, decreasing cumulative error by 55%. Tracking model uncertainty throughout training, we conclude that further model training is necessary to reach optimal results in both cases. We further conclude that BO via the Ax platform is not yet as "plug-and-play" as Taguchi arrays.}
 }

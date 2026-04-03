@@ -280,7 +280,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Campbell, Campbell*, M Campbell, M* Campbell]
-  first_name: [Gregory, G., G.M., greg, gregory, Greg, Gregory M., Greg*]
+  first_name: [Gregory, G., G.M., greg, gregory, Greg, Gregory M., Greg*, Gregory M, GM]
 
   style: apa
   locale: en
