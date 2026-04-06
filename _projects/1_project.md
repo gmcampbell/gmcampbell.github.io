@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: SPA lifting
+description: Mechanical design of soft pneumatic actuators (SPA) for physical human-robot interaction (pHRI).
+img: assets/video/100x_gif.gif
 importance: 1
 category: work
 related_publications: true

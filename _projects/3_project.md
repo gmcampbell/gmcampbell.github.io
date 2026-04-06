@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
+title: Design optimization
+description: Active learning and Bayesian optimization for mechanical design.
+img: assets/video/membrane_plane_flash.gif
+# redirect: https://unsplash.com
+importance: 2
 category: work
 ---
 

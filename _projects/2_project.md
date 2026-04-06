@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
+title: Active strain limitation
+description: Mechanical design and control for active strain limitation relevant to SPA.
+img: assets/video/iPAM_100_5x.GIF
+importance: 3
 category: work
-giscus_comments: true
+# giscus_comments: true
 ---
 
 Every project has a beautiful feature showcase page.

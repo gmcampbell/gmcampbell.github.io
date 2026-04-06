@@ -33,7 +33,7 @@ I am currently a Visiting Assistant Professor of Mechanical Engineering at Lafay
 
 <!-- [Curriculum Vitae](/assets/pdf/gmc_cv_03_2026.pdf) -->
 
-<div style="text-align: center; margin-top: 2em;">
+<!-- <div style="text-align: center; margin-top: 2em;">
   <a class="btn btn-outline-info mx-2" href="/assets/pdf/gmc_cv_03_2026.pdf" target="_blank" role="button">
     Curriculum Vitae
-  </a>
+  </a> -->
