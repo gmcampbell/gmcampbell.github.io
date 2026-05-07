@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A collection of projects I think may be useful or interesting.
+description: A collection of research thrusts with projects I think may be useful or interesting.
 nav: true
 nav_order: 1
-display_categories: [work, fun]
+display_categories: [research, fun, education]
 horizontal: false
 ---
 

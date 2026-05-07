@@ -4,78 +4,47 @@ title: SPA lifting
 description: Mechanical design of soft pneumatic actuators (SPA) for physical human-robot interaction (pHRI).
 img: assets/video/100x_gif.gif
 importance: 1
-category: work
+category: research
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Inverse kinematics can be difficult enough, but what about when the actuator itself deforms? We've characterized a specific class of strain-limited silicone soft pneumatic actuators to enable programmable, passive, force-displacement response to pressure variations.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This is an ongoing research area, but the majority of the work so far can be found in {% cite campbell2025active %} and {% cite campbell2022electroadhesive %}.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+In short, we can create safe and inexpesive actuator by trapping air behind a silicone membrane! Theoretically, these can be mass-produced to provide active or passive response to changing air pressure for human-safe motion.
+
+<hr>
+
+Silicone is really stretchy, but we can prevent that stretch (also called 'strain') by embedding fabric in particular locations. Inflating these membranes with pneumatic pressure causes them to expand outward. The following should give you a little idea of how the silicone stretches and inflates:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/SiliconeStretch.gif" title="silicone stretch" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Membrane_Point_Cloud.png" title="membrane point cloud" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/MembraneParameterization.png" title="membrane parameterization and testing" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    On the left, we show the passive response of strain-limited silicone to physical deformation. Middle, the 2.5-D shape reponse when the membrane is inflated under positive pneumatic pressure and comes into contact with an external object (measurements in m). Right, a representation and image our characterization of this pneumatic inflation. The testing includes a sensor suite measuring force, pressure, inflation height, and flow rate.
 </div>
+
+<hr>
+
+By characterizing the possible lift trajectories, we envision a single pneumatic input allowings for well-supported lifts involving multiple membranes working in parallel. This has been demonstrated with two membranes {% cite campbell2025elastomeric %}.
+
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-2 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/LiftConcept.png" title="multi-membrane lift concept" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-2 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/video/100x_gif.gif" title="leg lift gif" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    On the left, a concept drawing for multiple membranes lifting and supporting a human leg. Right, an optimized multi-membrane lift of a mannequin leg (100x speed).
 </div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
