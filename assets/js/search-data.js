@@ -54,6 +54,11 @@ ninja.data = [{
           description: "My graduate level introduction to mechatronics.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
+            },},{id: "projects-movieapp",
+          title: 'movieApp',
+          description: "A foray into UI development to query physical media.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_project/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
