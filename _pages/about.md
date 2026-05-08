@@ -6,13 +6,14 @@ permalink: /
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: R&M_Sq.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Office location: AEC 522</p>
+    <p>Greg and Julia, Sep. 2023</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+
 
 # announcements:
 #   enabled: true # includes a list of news items
@@ -25,11 +26,13 @@ social: true # includes social icons at the bottom of the page
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello, and welcome to my website! This page is infrequently updated to display my professional portfolio. Outside of my role as an educator and researcher, I try to spend most of my time with my family and friends, tinkering with inexpensive electronics, and continuing my pursuit of lifelong learning.
+"If it's free and fun, do it." - Dr. Wong
+
+Hello, and welcome to my website! This page is infrequently updated to display a general portfolio. Outside of my role as an educator and researcher, I enjoy games of most sorts and tinkering with inexpensive electronics. Time spent learning is never wasted.
 
 I will be starting as an Assistant Professor of Mechanical Engineering in the Physics and Engineering department at the University of Scranton in Fall 2026. My research focuses on soft robotics, specifically actuator design for physical human-robot interaction and machine-learning enabled system identification and design optimization. I am consistently interested in collaborating with student researchers - please reach out if this research area excites you.
 
-I am currently a Visiting Assistant Professor of Mechanical Engineering at Lafayette College where I teach sophomore and junior level mechanical engineering students. Prior to coming to Lafayette, I completed my Ph.D. at the University of Pennsylvania, where i was advised by [Mark Yim](https://www.modlabupenn.org/). I also hold a M.S. and B.S. in Mechanical Engineering from Stanford University and Villanova University, respectively.
+I am currently a Visiting Assistant Professor of Mechanical Engineering at Lafayette College where I teach sophomore and junior level mechanical engineering students. Prior to coming to Lafayette, I completed my Ph.D. at the University of Pennsylvania, where I was advised by [Mark Yim](https://www.modlabupenn.org/). I also hold a M.S. and B.S. in Mechanical Engineering from Stanford University and Villanova University, respectively.
 
 <!-- [Curriculum Vitae](/assets/pdf/gmc_cv_03_2026.pdf) -->
 
