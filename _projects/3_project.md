@@ -28,9 +28,10 @@ I've taken two different approaches to learning-enabled design. Bayesian Optimiz
     </div>
 </div>
 <div class="caption">
-    Left: output from 34 design iterations of soft pneumatic valves. the last datapoint (yellow square) is low and left: it fits the design requirements best! 
-    
+    Left: output from 34 design iterations of soft pneumatic valves. the last datapoint (yellow square) is low and left: it fits the design requirements best!
+
     Right: graphical abstract detailing the Active Learning design process. Setting design parameters (A), automated experimentation (B), active learning modeling (C), and finally inverse design and verification (D).
+
 </div>
 
 <hr>

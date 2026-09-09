@@ -30,7 +30,6 @@ social: true # includes social icons at the bottom of the page
 
 "If it's free and fun, do it." - Dr. Wong
 
-
 Hello, and welcome to my website! This page is infrequently updated to display a general portfolio. Outside of my role as an educator and researcher, I enjoy games of most sorts and tinkering with inexpensive electronics. Time spent learning is never wasted.
 
 I am an Assistant Professor of Mechanical Engineering in the Physics and Engineering department at the University of Scranton. My research focuses on soft robotics, specifically actuator design for physical human-robot interaction and machine-learning enabled system identification and design optimization. I am consistently interested in collaborating with student researchers - please reach out if this research area excites you.
