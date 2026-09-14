@@ -81,7 +81,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/gmc_cv_03_2026.pdf", "_blank");
+          window.open("/assets/pdf/GMC_CV_Sep_2026.pdf", "_blank");
         },
       },{
       id: 'light-theme',
