@@ -28,6 +28,8 @@ social: true # includes social icons at the bottom of the page
 
 "There are two ways of being happy: We may either diminish our wants or augment our means — either will do — the result in the same; and it is for each [person] to decide for [themself], and do that which happens to be the easiest... if you are wise, you will do both at the same time... and if you are very wise you will do both in such a way as to augment the general happiness of society." - Benjamin Franklin
 
+"institutio puerorum, reformatio mundi" - Pedro de Ribadeneira
+
 "If it's free and fun, do it." - Dr. Wong
 
 Hello, and welcome to my website! This page is infrequently updated to display a general portfolio. Outside of my role as an educator and researcher, I enjoy games of most sorts and tinkering with inexpensive electronics. Time spent learning is never wasted.
